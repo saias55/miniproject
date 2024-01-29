@@ -1,0 +1,11 @@
+.searchMainPage {
+  background-color: #131313;
+  min-height: 100vh;
+}
+
+.search-unordered-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}

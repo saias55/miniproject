@@ -1,0 +1,39 @@
+.detailsOfSocail {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: black;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.account-section-details {
+  height: 65vh;
+  padding: 10%;
+}
+
+.flex-account {
+  display: flex;
+}
+
+.account-margin-left {
+  margin-left: 20px;
+}
+
+.logoutButtonDetails {
+  background-color: #e50914;
+  height: 32px;
+  color: white;
+  width: 110px;
+  border-width: 0px;
+  border-radius: 10px;
+}
+
+.button-in-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+}

@@ -1,0 +1,92 @@
+.login-form-main-container {
+  background-image: url('https://res.cloudinary.com/dojn2omox/image/upload/v1701332218/prxayavelfkcvplae3xp.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-movie-head {
+  color: #e50014;
+  text-align: left;
+}
+
+.login-form-second-container {
+  background-color: #0c0b10;
+  opacity: 0.8;
+  width: 456px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.login-input-details {
+  background-color: #333333;
+  padding: 5px;
+  width: 360px;
+  height: 40px;
+  border-width: 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #e2e8f0;
+}
+
+.login-button-details {
+  background-color: #e50014;
+  color: white;
+  width: 360px;
+  border-width: 0px;
+  height: 40px;
+  border-radius: 15px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.login-label-details {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.error-msg-details {
+  color: #dc2626;
+}
+
+.login-checkbox-details {
+  width: 20px;
+}
+
+@media screen and (max-width: 567px) {
+  .login-form-main-container {
+    background-image: none;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .login-form-second-container {
+    background-color: transparent;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 10px;
+    color: #ffffff;
+  }
+
+  .login-input-details {
+    width: 296px;
+  }
+  .login-button-details {
+    width: 296px;
+  }
+}

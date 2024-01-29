@@ -1,0 +1,9 @@
+.popular-image-details {
+  width: 255px;
+  height: 200px;
+  background-size: cover;
+}
+
+.margin-details-popular {
+  margin: 40px;
+}

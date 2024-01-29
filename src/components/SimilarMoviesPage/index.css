@@ -1,0 +1,9 @@
+.margin-details {
+  margin: 30px;
+}
+
+.similar-image-details {
+  width: 255px;
+  height: 170px;
+  background-size: cover;
+}
